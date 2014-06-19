@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: eeventos_development
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: admin
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: eeventos_test
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: admin
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: eeventos_production
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: admin
